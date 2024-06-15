@@ -6,20 +6,38 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
+    margin: 0;
     overflow: hidden;
-    padding: 20px;
+    padding: 0;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.yellow{
+    color: yellow;
+}
+
+.button{
+    background-image: linear-gradient(to right, chartreuse , aqua);
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 1% 2%;
+}
+.button:hover{
+ padding:1.5% 2.1%;
 }
 
 header {
     text-align: center;
+    width: 100%;
     padding: 20px 0;
-    background-color: #4CAF50;
+    background-color: rgb(68, 117, 118);
     color: white;
+    display: block;
 }
+
 
 header h1 {
     margin: 0;
@@ -31,25 +49,103 @@ header p {
     color: #e0e0e0;
 }
 
-.coach-info, .mentor-details, .pricing, .results {
-    margin: 20px 0;
+.sec{
+    background-image: linear-gradient(to top,#537895  5%, #09203f 50%);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.coach-info{
+    display: block;
+    text-align: center;
+    padding: 10% 2% 2% ;
+    height: 300px;
+}
+h2{
+    margin: 0;
+}
+.mentor-details{
+    margin-top: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} 
+.feature{
+    box-shadow:
+    inset 0 -3em 3em white,
+    0 0 0 2px white,
+    0.3em 0.3em 1em grey;
+    border-radius: 5px;
+    margin:  5%;
+    width: 50%;
+    height: 20%
+}
+.img:hover{
+    width: 110px;
+    height: 80px;
 }
 
-.coach-info, .mentor-details {
-    padding: 20px;
-    background-color: #f9f9f9;
+.mentor{
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+} 
+.boxes{
+    background-color: blue;background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,43,99,1) 67%, rgb(6, 25, 129) 100%);
+    color: white;
+    border-radius: 5px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid ;
+    margin:  5%;
+    width: 55%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+
 }
 
-.coach-info h2, .mentor-details h2, .pricing h2, .results h2 {
-    color: #444;
-    font-size: 1.8em;
-    margin-bottom: 10px;
+.boxes:hover{
+    width: 60%;
+    height: 100px;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
 }
 
-.coach-info p, .mentor-details p, .pricing p, .results p {
-    color: #666;
-    font-size: 1.2em;
+.line{
+    text-decoration-line: line-through; 
 }
+
+.image{
+    width: 80%;
+}
+
+.learn{
+        display: block;
+        text-align: center;
+        padding: 10% 2% 2% ;
+}
+.result{
+    display: flexbox;
+
+}
+.imgs{
+    padding: 1%;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.imgs:hover{
+    width: 190px;
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+
+
 
 .pricing {
     padding: 20px;
