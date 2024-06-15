@@ -1,6 +1,3 @@
-document.getElementById('register-button').addEventListener('click', function() {
-    alert('You have reserved your spot for ₹97!');
-})
 
 var countDownDate = new Date("Jun 20, 2024 12:00:00").getTime();
 
@@ -29,3 +26,7 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+document.getElementById('register-button').addEventListener('click', function() {
+    alert('You have reserved your spot for ₹97!');
+})
+
