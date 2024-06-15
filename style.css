@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
+
+.coach-info, .mentor-details, .pricing, .results {
+    margin: 20px 0;
+}
+
+.coach-info, .mentor-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.coach-info h2, .mentor-details h2, .pricing h2, .results h2 {
+    color: #444;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.coach-info p, .mentor-details p, .pricing p, .results p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+.pricing {
+    padding: 20px;
+    background-color: #fff3e0;
+    border: 1px solid #ff9800;
+}
+
+.pricing h2 {
+    color: #e65100;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.pricing p {
+    color: #e65100;
+    font-size: 1.2em;
+}
+
+#register-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+#register-button:hover {
+    background-color: #218838;
+}
+
+.price-increase {
+    color: #e3342f;
+    font-weight: bold;
+}
+
+.results {
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+.results h2 {
+    color: #00796b;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.results p {
+    color: #004d40;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer .logos {
+    display: block;
+    margin-top: 10px;
+}
+
+footer .logos span {
+    margin-right: 10px;
+}
+
+
+    
+   
+   
+
+ 
